@@ -1,28 +1,26 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+/lib
+tmp
+*.off
+*.orig
 
-# Precompiled Headers
-*.gch
-*.pch
+# gradle
+build
+.gradle
+.nb-gradle
+.nb-gradle-properties
 
-# Compiled Dynamic libraries
+# native created when running
 *.so
-*.dylib
 *.dll
+*.dylib
 
-# Fortran module files
-*.mod
+# eclipse
+bin/
+.classpath
+.project
+.settings
+.apt_generated
+.factorypath
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# crash
+hs_err_pid*.log
